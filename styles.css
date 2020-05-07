@@ -1,0 +1,55 @@
+body {
+	background: #c47be0;  
+}
+
+h3 {
+	
+	text-align: center;
+	color: black;
+}
+* {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 20%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=number],textarea {
+    width: 20%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=text]:focus,input[type=email]:focus,input[type=number]:focus, textarea:focus {
+	border: 2px solid green;
+}
+
+input[type=submit] {
+	background: rgb(129, 12, 238);
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+input[type=submit]:hover {
+	background-color: #dab1fc;
+}
